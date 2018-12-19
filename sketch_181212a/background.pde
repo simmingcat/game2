@@ -2,19 +2,45 @@ void setupBackGround(){
   //ground
   rect(0, 611, 1300, 604);
   
-  //clock
-  ellipse(241, 110, 110, 110);
-  ellipse(241, 110, 95, 95);
-  ellipse(241, 110, 5, 5);
- 
-  line(241, 107, 241, 70);
-  line(239, 110, 219, 109);
-  
     //chair 1
   line(56, 611, 77, 581);
   line(132, 611, 117, 581);
   rect(76, 565, 40, 15);
   line(76, 565, 64, 525);
+  
+  //chair 2
+  line(241, 579, 231, 610);
+  line(282, 580, 293, 612);
+  rect(240, 562, 43, 18);
+  line(240, 562, 223, 512);
+  
+  //chair3
+  line(385, 579, 374, 611);
+  line(428, 580, 436, 611);
+  rect(385, 562, 43, 18);
+  line(385, 562, 370, 510);
+  
+  //presenting thing
+  line(638, 500, 618, 611);
+  line(638, 500, 670, 611);
+  rect(598, 422, 85, 115);
+  
+  //window
+  fill(windowBrown);
+  rect(54, 204, 205, 230);//window 1
+  rect(330, 204, 205, 230);//window2
+  fill(windowBlue);
+  //window1
+  rect(70, 221, 80, 95);
+  rect(163, 221, 80, 95);
+  rect(70, 325, 80, 95);
+  rect(163, 325, 80, 95);
+  //window2
+  rect(341, 221, 80, 95);
+  rect(438, 221, 80, 95);
+ rect(341, 325, 80, 95);
+ rect(438, 325, 80, 95);
+  
   
   //green broad
   noStroke();
@@ -24,9 +50,14 @@ fill(#8B4F06);
   rect(779, 395, 415, 15);
 stroke(1);
 line(786, 159, 786, 395);
-line();
+line(786, 159, 1184, 158);
+line(1184, 158, 1186, 395);
+line(1186, 395, 1194, 395);
+line(1194, 395, 1194, 409);
+line(1194, 409, 779, 410);
+line(779, 410, 779, 395);
+line(779, 395, 786, 395);
  
-  
   //table
  fill(darkBrown);
  noStroke();
@@ -48,4 +79,27 @@ line();
  line(1168, 614, 1118, 614);
  line(1118, 614, 1118, 611);
  line(1118, 611, 850, 611);
+ 
+ //clock
+  fill(red);
+  ellipse(241, 110, 110, 110);
+  fill(white);
+   noStroke();
+  ellipse(241, 110, 95, 95);
+  stroke(1);
+  ellipse(241, 110, 5, 5);
+   line(241, 107, 241, 70);
+  line(239, 110, 219, 109);
+  
+   //chalk
+rect(798, 385, 35, 10);
+
+//apple
+noStroke();
+fill(appleGreen);
+rect(815, 436, 5, 12);
+fill(appleRed);
+ellipse(814, 452, 15, 20);
+ellipse(822, 452, 15, 20);
+stroke(1);
 }
