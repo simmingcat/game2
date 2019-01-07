@@ -15,6 +15,14 @@ void setupBackGround(){
   line(261, 555, 289, 555);
   line(289, 555, 299, 575);
   ellipse(260, 497, 7, 7);
+  line(259, 509, 276, 507);
+  
+  //person3
+rect(398, 515, 25, 50);
+ellipse(409, 498, 40, 40);
+ellipse(412, 495, 7, 7);
+line(413, 503, 428, 503);
+//line(
   
   
   fill(#FFB9B9);
@@ -23,7 +31,7 @@ void setupBackGround(){
   line(638, 500, 670, 611);
   rect(598, 422, 85, 115);
   
-  //window
+  //windows
   fill(windowBrown);
   rect(54, 204, 205, 230);//window 1
   rect(330, 204, 205, 230);//window2
@@ -34,9 +42,9 @@ void setupBackGround(){
   rect(70, 325, 80, 95);
   rect(163, 325, 80, 95);
   //window2
-  rect(341, 221, 80, 95);
+  rect(345, 221, 80, 95);
   rect(438, 221, 80, 95);
- rect(341, 325, 80, 95);
+ rect(346  , 325, 80, 95);
  rect(438, 325, 80, 95);
   
   
