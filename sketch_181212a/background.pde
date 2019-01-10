@@ -1,29 +1,4 @@
-void setupBackGround(){
-  //person1
-  rect(85, 517, 25, 50);
-  ellipse(96, 500, 40, 40);
-  ellipse(100, 497, 7, 7);
-  line(99, 508, 113, 509);
-  line(97, 530, 120, 549);
-  line(97, 558, 122, 558);
-  line(122, 558, 137, 581);
-  
-  //person2
-  rect(248, 515, 25, 50);
-  ellipse(258, 500, 40, 40);
-  line(261, 528, 285, 543);
-  line(261, 555, 289, 555);
-  line(289, 555, 299, 575);
-  ellipse(260, 497, 7, 7);
-  line(259, 509, 276, 507);
-  
-  //person3
-rect(398, 515, 25, 50);
-ellipse(409, 498, 40, 40);
-ellipse(412, 495, 7, 7);
-line(413, 503, 428, 503);
-//line(
-  
+void drawBackGround(){
   
   fill(#FFB9B9);
   //presenting thing

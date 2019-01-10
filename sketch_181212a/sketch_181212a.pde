@@ -12,11 +12,11 @@ color appleGreen = #3EFF31;
 void setup(){
   size(1300, 680);
   background(#FFFCAA);
-  setupBackGround();
 
 
 }
 
 void draw(){
+ drawBackGround();
 println ("Mousex:", mouseX, "\tMouseY:", mouseY);
 }
