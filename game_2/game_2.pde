@@ -10,6 +10,7 @@ color green = #11AA07;
 color purple = #C56FFF;
 color darkYellow = #F1FF3B;
 color darkerRed = #C60000;
+color chairBrown = #AA6E2E;
 
 void setup(){
   size(1300, 680);
