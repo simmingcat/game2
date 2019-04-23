@@ -1,15 +1,20 @@
 void bulidDraw(){
   
+  fill(sliver);
     rect(405, 487, 450, 135);
   rect(812, 473, 300, 135);
+  
+  fill(gray);
   rect(864, 439, 100, 34);
   rect(878, 393, 70, 46);
   rect(906, 383, 10, 10);
   rect(890, 369, 45, 15);
   
+  fill (brown);
   rect(1200, 568, 10, 50);
   rect(1163, 532, 80, 36);
   
+  fill(red);
   ellipse(135, 489, 15, 15);
  line(138, 494, 166, 578);
  line(144, 509, 245, 509);
@@ -28,45 +33,32 @@ void bulidDraw(){
  line(147, 519, 241, 519);
  line(151, 535, 237, 535);
  
- rect(455, 364, 270, 122); 
- line(469, 400, 703, 400);
- line(469, 400, 473, 414);
- line(704, 400, 698, 414);
  
- line(469, 451, 703, 451);
- line(469, 451, 473, 464);
- line(703, 451, 698, 464);
+ fill(roof);
+ line(176, 0, 176, 100);
+ line(413, 0, 413, 100);
+  line(164, 100, 164, 106);
+ line(164, 100, 422, 100);
  
-  pic=loadImage("Dat_Boi_(resized_50%).jpg");
-   rect(542, 427, 30, 24);
-  image(pic,542, 427, 30, 24);
-  
-   pic=loadImage("a4215703469_10 (1).jpg");
-  rect(485, 427, 30, 24);
-  image(pic, 485, 427, 30, 24);
-  
-  pic=loadImage("89b7d40364b7a9efc52c2080a7b163bb.jpg");
-rect(604, 427, 30, 24);
-  image(pic, 604, 427, 30, 24);
-  
-  pic=loadImage("download.jpg");
-   rect(660, 427, 30, 24);
-   image(pic, 660, 427, 30, 24);
-   
-    pic=loadImage("2de9fb0f-71f4-4b13-948f-be87a03e3f3a-getty-1094653110.jpg");
-  rect(485, 376, 30, 24);
-   image(pic, 485, 376, 30, 24);
-   
-     pic=loadImage("hjz,smxnxj.jpg");
- rect(542, 376, 30, 24);
-   image(pic, 542, 376, 30, 24);
-   
-    pic=loadImage("IMG_0176.jpg");
-rect(604, 376, 30, 24);
-   image(pic, 604, 376, 30, 24);
-   
-    pic=loadImage("IMG_0177.jpg");
-  rect(660, 376, 30, 24);
-   image(pic, 660, 376, 30, 24);
+ line(1167, 0, 1167, 100);
+ line(951, 0,  951, 100);
+ 
+ noStroke();
+ rect(164, 100, 259, 10);
+ rect(933, 100, 259, 10);
+ 
+ fill(lights);
+ triangle(422, 110, 435, 130, 400, 130);
+ triangle(400, 130, 422, 110, 303, 110);
+ triangle(303, 110, 395, 130, 218, 130);
+ triangle(164, 110, 300, 110, 217, 130);
+ triangle(164, 110, 156, 130, 214, 130);
+ 
+triangle(1191, 110, 1196, 130, 934, 130);
+triangle(1191, 110, 1196, 130, 940, 130);
+triangle(933, 110, 920, 130, 1181, 110);
+
+
+ stroke(1);
   
 }
